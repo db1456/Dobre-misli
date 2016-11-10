@@ -6,6 +6,11 @@
 <head runat="server">
     <title></title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 18px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -37,7 +42,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="margin-left: 15px; padding-left: 15px; font-weight: bolder;">
+                <td style="margin-left: 15px; padding-left: 15px; font-weight: bolder;" class="auto-style1">
                     <asp:PlaceHolder ID="misli" runat="server"></asp:PlaceHolder>
                 </td>
             </tr>
